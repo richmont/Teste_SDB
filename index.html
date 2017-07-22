@@ -4,9 +4,9 @@
   <title>Quiz Semideuses de Belém</title>
 </head>
 <body>
+<script src="js/resultado.js"></script>
 
-
-<form>
+<form name="testeSDB" action=http://localhost/php/resultado.php  method="post">
 
 
 <h1>Questões do Quiz oficial do Semideuses de Belém</h1>
@@ -15,7 +15,7 @@
 <h3>1 - Que tipo de lugar você acha que reflete mais a sua personalidade e te deixaria mais à vontade?</h3>
 <ol type="A">
   <table>
-      <tr><td><li><input type=radio name="questao1" value="A">Uma cidade bem urbanizada, com belos prédios, bibliotecas, praças, livrarias, etc.</input></tr>
+      <tr><td><li><input type=radio name="questao1" value="A" required>Uma cidade bem urbanizada, com belos prédios, bibliotecas, praças, livrarias, etc.</input></tr>
       <tr><td><li><input type=radio name="questao1" value="B">Uma bela paisagem noturna, com poucas pessoas especiais como companhia.</input></tr>
       <tr><td><li><input type=radio name="questao1" value="C">Um shopping center com muita gente bonita e coisas legais para admirar e ser visto(a)</input></tr>
       <tr><td><li><input type=radio name="questao1" value="D">Um lugar ao ar livre curtindo uma boa música ou fazendo atividades artísticas ou esportivas com várias pessoas.</input></tr>
@@ -33,7 +33,7 @@
 <h3>2 - Que tipo de animal te chama mais a atenção (não necessariamente é seu preferido)?</h3>
 <ol type="A">
 <table>
-  <tr><td><li><input type=radio name="questao2" value="A">Algo que inspire beleza, amor e paz, um animal como uma Pomba ou Cisne seria o ideal.</input></tr>
+  <tr><td><li><input type=radio name="questao2" value="A" required>Algo que inspire beleza, amor e paz, um animal como uma Pomba ou Cisne seria o ideal.</input></tr>
   <tr><td><li><input type=radio name="questao2" value="B">Um leopardo ou outro grande felino viril, poderoso e rico em simbologia.</input></tr>
   <tr><td><li><input type=radio name="questao2" value="C">Uma Cobra, símbolo de esperteza, por vezes subestimado ou temido, mas sempre em destaque.</input></tr>
   <tr><td><li><input type=radio name="questao2" value="D">Uma Águia, um dos maiores símbolos de poder, autonomia e superação.</input></tr>
@@ -50,7 +50,7 @@
 <h3>3 - Se tivesse que escolher uma arma para entrar em combate que tipo lhe chamaria mais atenção?</h3>
 <ol type="A">
   <table>
-  <tr><td><li><input type=radio name="questao3" value="A">Uma Espada ou lança poderosa que combine com minhas habilidades e impressione a todos.</input></tr>
+  <tr><td><li><input type=radio name="questao3" value="A" required>Uma Espada ou lança poderosa que combine com minhas habilidades e impressione a todos.</input></tr>
   <tr><td><li><input type=radio name="questao3" value="B">Um Bastão seria bom em qualquer situação, espere eu acertar a cabeça deles. Será divertido.</input></tr>
   <tr><td><li><input type=radio name="questao3" value="C">Arco e flecha para atacar com precisão e elegância. Aposto que acerto uma flecha na testa deles.</input></tr>
   <tr><td><li><input type=radio name="questao3" value="D">Usar um Escudo é uma boa estratégia, pois pode ser usado tanto pra defesa quanto pro ataque.</input></tr>
@@ -67,7 +67,7 @@
 <h3>4 - um xingamento ou zoação que seria provável fazerem com você?</h3></input></tr>
 <ol type="A">
   <table>
-  <tr><td><li><input type=radio name="questao4" value="A">Autista ou anti social</input></tr>
+  <tr><td><li><input type=radio name="questao4" value="A" required>Autista ou anti social</input></tr>
   <tr><td><li><input type=radio name="questao4" value="B">Marcha lenta ou cabeça de alga</input></tr>
   <tr><td><li><input type=radio name="questao4" value="C">Trigolino (a) ou hippie natureba</input></tr>
   <tr><td><li><input type=radio name="questao4" value="D">Emo gótico(a) trevoso(a) sentimental</input></tr>
@@ -84,7 +84,7 @@
 <h3>5 - Qual você diria que são adjetivos possivelmente mais aplicáveis a você?</h3></input></tr>
 <ol type="A">
   <table>
-  <tr><td><li><input type=radio name="questao5" value="A">Lealdade / sensibilidade / mistério</input></tr>
+  <tr><td><li><input type=radio name="questao5" value="A" required>Lealdade / sensibilidade / mistério</input></tr>
   <tr><td><li><input type=radio name="questao5" value="B">Coragem / orgulho / confiança</input></tr>
   <tr><td><li><input type=radio name="questao5" value="C">Prestatividade / Inventividade / Bom humor</input></tr>
   <tr><td><li><input type=radio name="questao5" value="D">Amistosidade / lealdade / intensidade</input></tr>
@@ -101,7 +101,7 @@
 <h3>6 - Quais seriam seus defeitos mais destacáveis?</h3>
 <ol type="A">
   <table>
-  <tr><td><li><input type=radio name="questao6" value="A">Falta de coordenação motora / Irritação</input></tr>
+  <tr><td><li><input type=radio name="questao6" value="A" required>Falta de coordenação motora / Irritação</input></tr>
   <tr><td><li><input type=radio name="questao6" value="B">Introversão / timidez</input></tr>
   <tr><td><li><input type=radio name="questao6" value="C">Arrogância / individualismo</input></tr>
   <tr><td><li><input type=radio name="questao6" value="D">Teimosia / explosividade</input></tr>
@@ -118,7 +118,7 @@
 <h3>7 - Em se tratando de jogos e práticas esportivas você:</h3>
 <ol type="A">
 <table>
-  <tr><td><li><input type=radio name="questao7" value="A">Acha importante o esporte como demonstração de trabalho duro e crescimento pessoal.</input></tr>
+  <tr><td><li><input type=radio name="questao7" value="A" required>Acha importante o esporte como demonstração de trabalho duro e crescimento pessoal.</input></tr>
   <tr><td><li><input type=radio name="questao7" value="B">Gosta, sobretudo, dos que exigem habilidades como pontaria ou trabalho em grupo;</input></tr>
   <tr><td><li><input type=radio name="questao7" value="C">Gosta principalmente dos aquáticos e participa mesmo quando não tem habilidade suficiente.</input></tr>
   <tr><td><li><input type=radio name="questao7" value="D">Adora. Principalmente modalidades variadas de luta e submissão do oponente.</input></tr>
@@ -135,7 +135,7 @@
 <h3>8 - Em uma festa você provavelmente:</h3>
 <ol type="A">
 <table>
-  <tr><td><li><input type=radio name="questao8" value="A">se diverte de todas as formas possíveis, dançando, comendo, bebendo e rindo muito com os amigos sem se preocupar se os outros vão achar que você é doido (a).</input></tr>
+  <tr><td><li><input type=radio name="questao8" value="A" required>se diverte de todas as formas possíveis, dançando, comendo, bebendo e rindo muito com os amigos sem se preocupar se os outros vão achar que você é doido (a).</input></tr>
   <tr><td><li><input type=radio name="questao8" value="B">Estaria na organização da festa, dizendo o que as pessoas devem fazer ou então reclamando de quem organizou a festa, enquanto se diverte e se destaca no meio dos demais;</input></tr>
   <tr><td><li><input type=radio name="questao8" value="C">Prefere ficar mais na sua observando tudo, se seus melhores amigos não estiverem por perto pra conversar e rir, fica isolado ou vai embora da festa mais cedo.</input></tr>
   <tr><td><li><input type=radio name="questao8" value="D">Se diverte mais zoando os outros, contando piadas, conversando e brincando com quem aparecer.</input></tr>
@@ -152,7 +152,7 @@
 <h3>09 - Qual desses poderes especiais você acharia mais interessante ter?</h3>
 <ol type="A">
 <table>
-  <tr><td><li><input type=radio name="questao9" value="A">Poderes de regeneração e cura (incluindo de outras pessoas).</input></tr>
+  <tr><td><li><input type=radio name="questao9" value="A" required>Poderes de regeneração e cura (incluindo de outras pessoas).</input></tr>
   <tr><td><li><input type=radio name="questao9" value="B">controlar as pessoas, sutilmente, fazendo-as seguir suas vontades.</input></tr>
   <tr><td><li><input type=radio name="questao9" value="C">Poderes mentais como telecinese ou telepatia.</input></tr>
   <tr><td><li><input type=radio name="questao9" value="D">Controle e imunidade ao elemento Fogo.</input></tr>
@@ -169,7 +169,7 @@
 <h3>10. Assinale as opções que as palavras mais chamam a sua atenção!</h3>
 <ol type="A">
 <table>
-  <tr><td><li><input type=radio name="questao10" value="A">Vencer / Tretas / Se provar / Força</input></tr>
+  <tr><td><li><input type=radio name="questao10" value="A" required>Vencer / Tretas / Se provar / Força</input></tr>
   <tr><td><li><input type=radio name="questao10" value="B">Livros / Justiça / Aprender / Batalhas</input></tr>
   <tr><td><li><input type=radio name="questao10" value="C">Fotos / Amar / Compras / Beijos</input></tr>
   <tr><td><li><input type=radio name="questao10" value="D">Comida / Primavera / Natureza / Cuidar</input></tr>
@@ -186,7 +186,7 @@
 <h3>11 - Que ditos populares chamam mais sua atenção?</h3>
 <ol type="A">
 <table>
-  <tr><td><li><input type=radio name="questao11" value="A">A ocasião faz o ladrão / Aprenda todas as regras e transgrida algumas / Toda longa viagem começa com um passo.</input></tr>
+  <tr><td><li><input type=radio name="questao11" value="A" required>A ocasião faz o ladrão / Aprenda todas as regras e transgrida algumas / Toda longa viagem começa com um passo.</input></tr>
   <tr><td><li><input type=radio name="questao11" value="B">Onde há fumaça, há fogo / Quem com ferro fere, com ferro será ferido / É mais fácil construir um menino que consertar um homem.</input></tr>
   <tr><td><li><input type=radio name="questao11" value="C">Quem vai à Guerra, dá e leva / A união faz a força / Cada qual faz a guerra como pode.</input></tr>
   <tr><td><li><input type=radio name="questao11" value="D">Afoga-se mais gente em vinho do que em água / loucura é breve, longo é o arrependimento / Vinho e amigo, melhor mais antigo.</input></tr>
@@ -199,7 +199,7 @@
   <tr><td><li><input type=radio name="questao11" value="K">Para bom entendedor, meia palavra basta. / A ignorância é a mãe de todos os males / pensar duas vezes antes de agir</input></tr>
 </table>
 </ol>
-
+<input type=submit value="Terminar">
 </form>
 
 </body>
