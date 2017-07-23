@@ -31,6 +31,9 @@ $result11 = $_POST["questao11"] ;
 
 
 function questao1($result1){
+	/* escopo das variáveis criava os erros anteriores
+	declará-las com a palavra reservada "global" resolve o problema*/
+	global $zeus,$poseidon, $demeter, $ares, $atena, $apolo, $hefesto, $afrodite, $dionisio, $hermes;
 	switch($result1){
 		case "A":
 			$atena++;
@@ -72,5 +75,4 @@ function questao1($result1){
 		
 }
 questao1($result1);
-
 ?>
