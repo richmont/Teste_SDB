@@ -283,7 +283,7 @@ function questao6($result6){
 			$dionisio++;
 			break;
 		case "K":
-			$hades::
+			$hades++;
 			break;
 		default:
 			return -9999;
