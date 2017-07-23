@@ -1,17 +1,5 @@
+<center>
 <?php
-//echo nl2br("\nresultado da questão 1: ") . $_POST["questao1"];
-//echo nl2br("\nresultado da questão 2: ") . $_POST["questao2"] ;
-//echo nl2br("\nresultado da questão 3: ") . $_POST["questao3"] ;
-//echo nl2br("\nresultado da questão 4: ") . $_POST["questao4"] ;
-//echo nl2br("\nresultado da questão 5: ") . $_POST["questao5"] ;
-//echo nl2br("\nresultado da questão 6: ") . $_POST["questao6"] ;
-//echo nl2br("\nresultado da questão 7: ") . $_POST["questao7"] ;
-//echo nl2br("\nresultado da questão 8: ") . $_POST["questao8"] ;
-//echo nl2br("\nresultado da questão 9: ") . $_POST["questao9"] ;
-//echo nl2br("\nresultado da questão 10: ") . $_POST["questao10"];
-//echo nl2br("\nresultado da questão 11: ") . $_POST["questao11"];
-
-
 // declaração das variáveis que irão receber a quantidade de cada resultado
 $zeus = $poseidon = $demeter = $ares = $atena = $apolo = $hefesto = $afrodite = $dionisio = $hermes=0;
 
@@ -336,7 +324,7 @@ function questao7($result7){
 }
 
 function questao8($result8){
-	global $zeus,$poseidon, $demeter, $ares, $atena, $apolo, $hefesto, $afrodite, $dionisio, $hermes;
+	global $zeus,$poseidon, $demeter, $ares, $atena, $apolo, $hefesto, $afrodite, $dionisio, $hermes, $hades;
 	switch($result8){
 		case "A":
 			$dionisio++;
@@ -523,19 +511,32 @@ echo (questao1($result11)==-9999) ? "A questão  causou um erro": "";
 
 // Exibição do resultado
 
-echo "Relação de deuses:\n 
-Zeus: $zeus \n
-Poseidon: $poseidon \n 
-Demeter: $demeter \n
-Ares: $ares \n
-Atena $atena \n
-Apolo: $apolo \n
-Hefesto: $hefesto \n
-Afrodite: $afrodite \n
-Hermes: $hermes \n
-Dionísio: $dionisio \n
-Hades: $hades \n";
+echo "Relação de deuses:";
+echo nl2br("\nZeus: ").$zeus;
+echo nl2br("\nPoseidon: ").$poseidon;
+echo nl2br("\nDemeter: ").$demeter;
+echo nl2br("\nAres: ").$ares;
+echo nl2br("\nAtena ").$atena;
+echo nl2br("\nApolo: ").$apolo;
+echo nl2br("\nHefesto: ").$hefesto;
+echo nl2br("\nAfrodite: ").$afrodite;
+echo nl2br("\nHermes: ").$hermes;
+echo nl2br("\nDionísio: ").$dionisio;
+echo nl2br("\nHades: ").$hades;
 
+
+//echo nl2br("\nresultado da questão 1: ") . $_POST["questao1"];
+//echo nl2br("\nresultado da questão 2: ") . $_POST["questao2"] ;
+//echo nl2br("\nresultado da questão 3: ") . $_POST["questao3"] ;
+//echo nl2br("\nresultado da questão 4: ") . $_POST["questao4"] ;
+//echo nl2br("\nresultado da questão 5: ") . $_POST["questao5"] ;
+//echo nl2br("\nresultado da questão 6: ") . $_POST["questao6"] ;
+//echo nl2br("\nresultado da questão 7: ") . $_POST["questao7"] ;
+//echo nl2br("\nresultado da questão 8: ") . $_POST["questao8"] ;
+//echo nl2br("\nresultado da questão 9: ") . $_POST["questao9"] ;
+//echo nl2br("\nresultado da questão 10: ") . $_POST["questao10"];
+//echo nl2br("\nresultado da questão 11: ") . $_POST["questao11"];
 
 ?>
-<INPUT TYPE="button" VALUE="Voltar" onClick="history.go(-1);">
+<br>
+<INPUT TYPE="button" VALUE="Voltar" onClick="history.go(-1);"></INPUT><center>
