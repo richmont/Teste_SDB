@@ -2,9 +2,10 @@
 <meta charset=utf-8>
 <head>
   <title>Quiz Semideuses de Belém</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-<script src="js/resultado.js"></script>
+
 
 <!--versão do cabeçalho para funcionar localmente, para testes
 <form name="testeSDB" action=http://localhost/php/resultado.php  method="post"> -->
@@ -19,7 +20,7 @@ Versão do cabeçalho do formulário pra funcionar na internet e não apenas loc
 
 
 <h3>1 - Que tipo de lugar você acha que reflete mais a sua personalidade e te deixaria mais à vontade?</h3>
-<ol type="A">
+<ol>
   <table>
       <tr><td><li><input type=radio name="questao1" value="A" required>Uma cidade bem urbanizada, com belos prédios, bibliotecas, praças, livrarias, etc.</input></tr>
       <tr><td><li><input type=radio name="questao1" value="B">Uma bela paisagem noturna, com poucas pessoas especiais como companhia.</input></tr>
@@ -37,7 +38,7 @@ Versão do cabeçalho do formulário pra funcionar na internet e não apenas loc
 
 
 <h3>2 - Que tipo de animal te chama mais a atenção (não necessariamente é seu preferido)?</h3>
-<ol type="A">
+<ol >
 <table>
   <tr><td><li><input type=radio name="questao2" value="A" required>Algo que inspire beleza, amor e paz, um animal como uma Pomba ou Cisne seria o ideal.</input></tr>
   <tr><td><li><input type=radio name="questao2" value="B">Um leopardo ou outro grande felino viril, poderoso e rico em simbologia.</input></tr>
@@ -54,7 +55,7 @@ Versão do cabeçalho do formulário pra funcionar na internet e não apenas loc
 </ol>
 
 <h3>3 - Se tivesse que escolher uma arma para entrar em combate que tipo lhe chamaria mais atenção?</h3>
-<ol type="A">
+<ol >
   <table>
   <tr><td><li><input type=radio name="questao3" value="A" required>Uma Espada ou lança poderosa que combine com minhas habilidades e impressione a todos.</input></tr>
   <tr><td><li><input type=radio name="questao3" value="B">Um Bastão seria bom em qualquer situação, espere eu acertar a cabeça deles. Será divertido.</input></tr>
@@ -71,7 +72,7 @@ Versão do cabeçalho do formulário pra funcionar na internet e não apenas loc
 </ol>
 
 <h3>4 - um xingamento ou zoação que seria provável fazerem com você?</h3></input></tr>
-<ol type="A">
+<ol >
   <table>
   <tr><td><li><input type=radio name="questao4" value="A" required>Autista ou anti social</input></tr>
   <tr><td><li><input type=radio name="questao4" value="B">Marcha lenta ou cabeça de alga</input></tr>
@@ -88,7 +89,7 @@ Versão do cabeçalho do formulário pra funcionar na internet e não apenas loc
 </ol>
 
 <h3>5 - Qual você diria que são adjetivos possivelmente mais aplicáveis a você?</h3></input></tr>
-<ol type="A">
+<ol >
   <table>
   <tr><td><li><input type=radio name="questao5" value="A" required>Lealdade / sensibilidade / mistério</input></tr>
   <tr><td><li><input type=radio name="questao5" value="B">Coragem / orgulho / confiança</input></tr>
@@ -105,7 +106,7 @@ Versão do cabeçalho do formulário pra funcionar na internet e não apenas loc
 </ol>
 
 <h3>6 - Quais seriam seus defeitos mais destacáveis?</h3>
-<ol type="A">
+<ol >
   <table>
   <tr><td><li><input type=radio name="questao6" value="A" required>Falta de coordenação motora / Irritação</input></tr>
   <tr><td><li><input type=radio name="questao6" value="B">Introversão / timidez</input></tr>
@@ -122,7 +123,7 @@ Versão do cabeçalho do formulário pra funcionar na internet e não apenas loc
 </ol>
 
 <h3>7 - Em se tratando de jogos e práticas esportivas você:</h3>
-<ol type="A">
+<ol >
 <table>
   <tr><td><li><input type=radio name="questao7" value="A" required>Acha importante o esporte como demonstração de trabalho duro e crescimento pessoal.</input></tr>
   <tr><td><li><input type=radio name="questao7" value="B">Gosta, sobretudo, dos que exigem habilidades como pontaria ou trabalho em grupo;</input></tr>
@@ -139,7 +140,7 @@ Versão do cabeçalho do formulário pra funcionar na internet e não apenas loc
 </ol>
 
 <h3>8 - Em uma festa você provavelmente:</h3>
-<ol type="A">
+<ol >
 <table>
   <tr><td><li><input type=radio name="questao8" value="A" required>se diverte de todas as formas possíveis, dançando, comendo, bebendo e rindo muito com os amigos sem se preocupar se os outros vão achar que você é doido (a).</input></tr>
   <tr><td><li><input type=radio name="questao8" value="B">Estaria na organização da festa, dizendo o que as pessoas devem fazer ou então reclamando de quem organizou a festa, enquanto se diverte e se destaca no meio dos demais;</input></tr>
@@ -156,7 +157,7 @@ Versão do cabeçalho do formulário pra funcionar na internet e não apenas loc
 </ol>
 
 <h3>09 - Qual desses poderes especiais você acharia mais interessante ter?</h3>
-<ol type="A">
+<ol >
 <table>
   <tr><td><li><input type=radio name="questao9" value="A" required>Poderes de regeneração e cura (incluindo de outras pessoas).</input></tr>
   <tr><td><li><input type=radio name="questao9" value="B">controlar as pessoas, sutilmente, fazendo-as seguir suas vontades.</input></tr>
@@ -173,7 +174,7 @@ Versão do cabeçalho do formulário pra funcionar na internet e não apenas loc
 </ol>
 
 <h3>10. Assinale as opções que as palavras mais chamam a sua atenção!</h3>
-<ol type="A">
+<ol >
 <table>
   <tr><td><li><input type=radio name="questao10" value="A" required>Vencer / Tretas / Se provar / Força</input></tr>
   <tr><td><li><input type=radio name="questao10" value="B">Livros / Justiça / Aprender / Batalhas</input></tr>
@@ -190,7 +191,7 @@ Versão do cabeçalho do formulário pra funcionar na internet e não apenas loc
 </ol>
 
 <h3>11 - Que ditos populares chamam mais sua atenção?</h3>
-<ol type="A">
+<ol >
 <table>
   <tr><td><li><input type=radio name="questao11" value="A" required>A ocasião faz o ladrão / Aprenda todas as regras e transgrida algumas / Toda longa viagem começa com um passo.</input></tr>
   <tr><td><li><input type=radio name="questao11" value="B">Onde há fumaça, há fogo / Quem com ferro fere, com ferro será ferido / É mais fácil construir um menino que consertar um homem.</input></tr>
