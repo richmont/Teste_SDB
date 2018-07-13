@@ -1,0 +1,45 @@
+[{
+    "deus":"zeus",
+    "resposta":["J","D","A","J","F","C","E","B","H","I","G"]
+},
+{
+    "deus":"poseidon",
+    "resposta":["H","J","H","B","D","A","C","E","F","K","I"]
+},
+{
+    "deus":"demeter",
+    "resposta":["I","I","G","C","E","B","A","F","J","D","H"]
+},
+{
+    "deus":"ares",
+    "resposta":["E","H","E","K","B","D","D","J","G","A","C"]
+},
+{
+    "deus":"atena",
+    "resposta":["A","E","D","H","I","E","F","G","C","B","K"]
+},
+{
+    "deus":"apolo",
+    "resposta":["D","G","C","I","K","F","B","H","A","E","J"]
+},
+{
+    "deus":"hefesto",
+    "resposta":["G","K","F","A","C","H","J","K","D","F","B"]
+},
+{
+    "deus":"afrodite",
+    "resposta":["C","A","I","F","J","G","K","I","B","C","E"]
+},
+{
+    "deus":"hermes",
+    "resposta":["F","C","K","E","G","I","H","D","K","J","A"]
+},
+{
+    "deus":"dionisio",
+    "resposta":["K","B","B","G","H","J","I","A","I","G","D"]
+},
+{
+    "deus":"hades",
+    "resposta":["B","F","J","D","A","K","G","C","E","H","F"]
+}
+]
