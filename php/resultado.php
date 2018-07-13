@@ -144,4 +144,4 @@ echo nl2br("\nHades: ").$hades;
 ?>
 <br>
 <INPUT TYPE="button" VALUE="Voltar" onClick="history.go(-1);"></INPUT><center>
-Versão alpha2
+Versão alpha2.5

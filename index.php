@@ -2,7 +2,7 @@
 <meta charset=utf-8>
 <head>
   <title>Quiz Semideuses de Belém</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
 <!--versão do cabeçalho para funcionar localmente, para testes
