@@ -1,45 +1,45 @@
 [{
     "deus":"zeus",
-    "resposta":["J","D","A","J","F","C","E","B","H","I","G"]
+    "resposta":[10,4,1,10,6,3,5,2,8,9,7]
 },
 {
     "deus":"poseidon",
-    "resposta":["H","J","H","B","D","A","C","E","F","K","I"]
+    "resposta":[8,10,8,2,4,1,3,5,6,11,9]
 },
 {
     "deus":"demeter",
-    "resposta":["I","I","G","C","E","B","A","F","J","D","H"]
+    "resposta":[9,9,7,3,5,2,1,6,10,4,8]
 },
 {
     "deus":"ares",
-    "resposta":["E","H","E","K","B","D","D","J","G","A","C"]
+    "resposta":[5,8,5,11,2,4,4,10,7,1,3]
 },
 {
     "deus":"atena",
-    "resposta":["A","E","D","H","I","E","F","G","C","B","K"]
+    "resposta":[1,5,4,8,9,5,6,7,3,2,11]
 },
 {
     "deus":"apolo",
-    "resposta":["D","G","C","I","K","F","B","H","A","E","J"]
+    "resposta":[4,7,3,9,11,6,2,8,1,5,10]
 },
 {
     "deus":"hefesto",
-    "resposta":["G","K","F","A","C","H","J","K","D","F","B"]
+    "resposta":[7,11,6,1,3,8,10,11,4,6,2]
 },
 {
     "deus":"afrodite",
-    "resposta":["C","A","I","F","J","G","K","I","B","C","E"]
+    "resposta":[3,1,9,6,10,7,11,9,2,3,5]
 },
 {
     "deus":"hermes",
-    "resposta":["F","C","K","E","G","I","H","D","K","J","A"]
+    "resposta":[6,3,11,5,7,9,8,4,11,10,1]
 },
 {
     "deus":"dionisio",
-    "resposta":["K","B","B","G","H","J","I","A","I","G","D"]
+    "resposta":[11,2,2,7,8,10,9,1,9,7,4]
 },
 {
     "deus":"hades",
-    "resposta":["B","F","J","D","A","K","G","C","E","H","F"]
+    "resposta":[2,6,10,4,1,11,7,3,5,8,6]
 }
 ]
