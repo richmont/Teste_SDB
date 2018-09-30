@@ -19,12 +19,13 @@ class TestUsuarios(TestCase):
         print(MONGODB_URL)
 
     def test_cadastro_pergunta(self):
-        cadastrar_pergunta(1,'Que tipo de lugar você acha que reflete mais a sua personalidade e te deixaria mais à vontade?')
         tam_docu = Perguntas.objects.count()
-        self.assertEqual(tam_docu, 1)
+        cadastrar_pergunta(1,'Que tipo de lugar você acha que reflete mais a sua personalidade e te deixaria mais à vontade?')
+        tam_docu_novo = Perguntas.objects.count()
+        self.assertGreater(tam_docu_novo,tam_docu,"O número de perguntas após o teste é maior que antes")
 
     def tearDown(self):
-        self.db.drop_database(os.environ['MONGODB_NAME'])
+        #self.db.drop_database(os.environ['MONGODB_NAME'])
         self.db.drop_database(MONGODB_NAME)
 
 main()

@@ -10,7 +10,7 @@ db.connect(host=MONGODB_URL,username="sdbAdmin",password="password",authenticati
 
 # Modelo de pergunta
 class Perguntas(db.Document):
-    numero = db.IntField(max_length=1, required=True)
+    numero = db.IntField(max_length=10, required=True)
     texto = db.StringField(max_length=200, required=True)
 
 class Gabarito(db.Document):
