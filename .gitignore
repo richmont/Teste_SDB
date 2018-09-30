@@ -1,0 +1,6 @@
+bin/*
+lib/*
+lib64/*
+pip-selfcheck.json
+testes/geckodriver.log
+__pycache__
