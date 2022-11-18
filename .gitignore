@@ -5,3 +5,4 @@ pip-selfcheck.json
 testes/geckodriver.log
 __pycache__
 *.sqlite3
+conf/.env
