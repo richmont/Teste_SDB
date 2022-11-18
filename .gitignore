@@ -4,3 +4,4 @@ lib64/*
 pip-selfcheck.json
 testes/geckodriver.log
 __pycache__
+*.sqlite3
