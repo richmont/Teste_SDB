@@ -6,3 +6,4 @@ testes/geckodriver.log
 __pycache__
 *.sqlite3
 conf/.env
+proj_teste_sdb/app_teste_sdb/migrations/
