@@ -16,7 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from app_teste_sdb.views import hello
+from app_teste_sdb.views import v_questionario
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('hello/', hello.hello),
+    path('questionarios/', v_questionario.questionario),
 ]

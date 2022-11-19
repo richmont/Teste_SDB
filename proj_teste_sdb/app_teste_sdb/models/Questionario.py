@@ -9,7 +9,7 @@ LISTA_LETRAS = tuple(LISTA_LETRAS)
 
 class Questionario(models.Model):
     id_questionario = models.IntegerField(unique=True, blank=False, primary_key=True)
-    nome_questionario = models.CharField(max_length=255, blank=False)
+    nome_questionario = models.CharField(max_length=255, blank=False, unique=True)
 
 class Pergunta(models.Model):
     id_pergunta = models.IntegerField(unique=True, blank=False, primary_key=True)
