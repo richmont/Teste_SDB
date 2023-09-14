@@ -1,9 +1,3 @@
-bin/*
-lib/*
-lib64/*
-pip-selfcheck.json
-testes/geckodriver.log
 __pycache__
+.env
 *.sqlite3
-conf/.env
-proj_teste_sdb/app_teste_sdb/migrations/
