@@ -16,7 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from back.views import DivindadeViewSet, PanteaoViewSet
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('divindade/', DivindadeViewSet.as_view({'get': 'list', 'post': 'create', 'update': 'update', 'delete': 'destroy'}), name="Divindades"),
+    path('panteao/', PanteaoViewSet.as_view({'get': 'list', 'post': 'create', 'update': 'update', 'delete': 'destroy'}), name="Panteão")
 ]
