@@ -16,10 +16,29 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from back.views import DivindadeViewSet, PanteaoViewSet
+from back.views import DivindadeViewSet, PanteaoViewSet, QuestionarioViewSet, PerguntaViewSet, RespostaViewSet, QuestionarioFeitoViewSet, RespostasQuestionarioFeitoViewSet
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('divindade/', DivindadeViewSet.as_view({'get': 'list', 'post': 'create', 'update': 'update', 'delete': 'destroy'}), name="Divindades"),
-    path('panteao/', PanteaoViewSet.as_view({'get': 'list', 'post': 'create', 'update': 'update', 'delete': 'destroy'}), name="Panteão")
+    
+    path('divindade/', DivindadeViewSet.as_view({'get': 'list', 'post': 'create', 'update': 'update', 'delete': 'destroy'}), name="Lista de Divindades"),
+    path('divindade/<int:pk>', DivindadeViewSet.as_view({'get': 'retrieve', 'post': 'create', 'update': 'update', 'delete': 'destroy'}), name="Divindade"),
+    
+    path('panteao/', PanteaoViewSet.as_view({'get': 'list', 'post': 'create', 'update': 'update', 'delete': 'destroy'}), name="Lista de Panteões"),
+    path('panteao/<int:pk>', PanteaoViewSet.as_view({'get': 'retrieve', 'post': 'create', 'update': 'update', 'delete': 'destroy'}), name="Panteao"),
+
+    path('questionario/', QuestionarioViewSet.as_view({'get': 'list', 'post': 'create', 'update': 'update', 'delete': 'destroy'}), name="Lista de Questionários"),
+    path('questionario/<int:pk>', QuestionarioViewSet.as_view({'get': 'retrieve', 'post': 'create', 'update': 'update', 'delete': 'destroy'}), name="Questionario"),
+
+    path('pergunta/', PerguntaViewSet.as_view({'get': 'list', 'post': 'create', 'update': 'update', 'delete': 'destroy'}), name="Lista de Perguntas"),
+    path('pergunta/<int:pk>', PerguntaViewSet.as_view({'get': 'retrieve', 'post': 'create', 'update': 'update', 'delete': 'destroy'}), name="Pergunta"),
+
+    path('resposta/', RespostaViewSet.as_view({'get': 'list', 'post': 'create', 'update': 'update', 'delete': 'destroy'}), name="Lista de Respostas"),
+    path('resposta/<int:pk>', RespostaViewSet.as_view({'get': 'retrieve', 'post': 'create', 'update': 'update', 'delete': 'destroy'}), name="Resposta"),
+
+    path('questionario_feito/', QuestionarioFeitoViewSet.as_view({'get': 'list', 'post': 'create', 'update': 'update', 'delete': 'destroy'}), name="Lista de questionários feitos"),
+    path('questionario_feito/<int:pk>', QuestionarioFeitoViewSet.as_view({'get': 'retrieve', 'post': 'create', 'update': 'update', 'delete': 'destroy'}), name="Questionario Feito"),
+
+    path('resposta_questionario_feito/', RespostasQuestionarioFeitoViewSet.as_view({'get': 'list', 'post': 'create', 'update': 'update', 'delete': 'destroy'}), name="Lista de respostas dos questionários feitos"),
+    path('resposta_questionario_feito/<int:pk>', RespostasQuestionarioFeitoViewSet.as_view({'get': 'retrieve', 'post': 'create', 'update': 'update', 'delete': 'destroy'}), name="Resposta dos questionários feitos"),
 ]
