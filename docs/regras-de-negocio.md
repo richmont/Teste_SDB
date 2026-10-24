@@ -113,25 +113,7 @@ A existência de rascunhos, publicação, histórico de alterações, exclusão 
 
 Permanecem pendentes a forma de obtenção do nome, seus limites e validações, a escolha da divindade para a arte em resultados múltiplos e o conteúdo do link compartilhado. Um link que reproduza um resultado individual pode exigir armazenamento ou codificação de dados; essa decisão deve considerar privacidade e a baixa prioridade de persistência.
 
-## 8. Referências literárias
-
-| Identificador | Regra |
-| --- | --- |
-| RN-035 | Ebooks em EPUB das obras de Rick Riordan em português poderão ser fornecidos para consulta e catalogação. |
-| RN-036 | O objetivo da análise é identificar personagens e comportamentos para fundamentar a associação entre semideuses, características e divindades, aumentando a fidelidade às obras. |
-| RN-037 | Os ebooks não fazem parte do produto e não devem ser versionados nem distribuídos junto do projeto. |
-| RN-038 | Documentos de análise das características podem ser versionados e servir como fonte para a elaboração e revisão das perguntas. |
-
-### Organização recomendada
-
-- `referencias/ebooks/`: armazenamento local opcional dos materiais originais; diretório excluído do versionamento.
-- `docs/analises/`: análises próprias passíveis de versionamento, quando produzidas.
-- Cada análise pode registrar obra, capítulo ou outra localização, personagem, comportamento observado, característica associada e justificativa da interpretação.
-- As análises devem distinguir observações da obra de interpretações propostas para o quiz. Não devem se tornar cópias integrais dos ebooks ou de seus capítulos.
-
-O `.gitignore` exclui arquivos `.epub` e o diretório local de ebooks. Essa proteção não remove arquivos rastreados previamente nem impede sua inclusão de forma forçada.
-
-## 9. Experiência, apresentação e desempenho
+## 8. Experiência, apresentação e desempenho
 
 | Identificador | Requisito |
 | --- | --- |
@@ -146,7 +128,7 @@ O `.gitignore` exclui arquivos `.epub` e o diretório local de ebooks. Essa prot
 
 Não foram definidos stack de backend, banco de dados, provedor de hospedagem, orçamento de tamanho de página ou metas numéricas de latência. A localização do workspace em uma pasta chamada `java` não determina a tecnologia do projeto.
 
-## 10. Critérios de aceitação do escopo definido
+## 9. Critérios de aceitação do escopo definido
 
 1. O participante encontra o panteão grego como opção inicial e a estrutura admite cadastrar outros panteões sem redesenhar o domínio.
 2. Uma configuração oferecida ao público respeita a cardinalidade mínima de panteões, questionários, questões e alternativas.
@@ -156,14 +138,13 @@ Não foram definidos stack de backend, banco de dados, provedor de hospedagem, o
 6. O administrador autenticado consegue alterar os conteúdos, pesos, perfis e elementos visuais previstos; o painel não fica aberto a participantes sem autenticação.
 7. O participante consegue obter a arte com nome, divindade e origem, sem login social, e dispõe de alternativa quando o compartilhamento nativo não funciona.
 8. O fluxo principal funciona em celular e computador, com o mínimo necessário de JavaScript e sem tornar a decoração um obstáculo ao uso.
-9. Os ebooks permanecem externos ao conteúdo versionado; análises próprias podem ser consultadas na documentação.
 
-## 11. Decisões pendentes para implementação
+## 10. Decisões pendentes para implementação
 
 Além das pendências detalhadas nas seções anteriores, será necessário validar:
 
 - Catálogo inicial de divindades maiores e menores, características e símbolos.
-- Conteúdo definitivo dos questionários e critérios de revisão das análises literárias.
+- Conteúdo definitivo dos questionários e critérios de revisão das características.
 - Política de edição de respostas, reinício do teste e comportamento ao atualizar ou abandonar a página.
 - Efeito de mudanças administrativas sobre testes em andamento e resultados já compartilhados.
 - Política de dados pessoais: eventual coleta, armazenamento, retenção e exposição de nomes ou resultados em links públicos.
